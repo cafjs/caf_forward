@@ -1,0 +1,26 @@
+{
+    "name": "caf_forward",
+    "description": "Cloud Assistant library to proxy HTTP requests",
+    "version": "0.2.1",
+    "author": "Antonio Lain <antlai@cafjs.com>",
+    "dependencies": {
+        "caf_core": "^0.2.0",
+        "request" : "^2.75.0"
+    },
+    "devDependencies": {
+        "eslint": "^3.1.1",
+        "nodeunit" : ">=0.9"
+    },
+    "main": "index",
+    "homepage": "http://www.cafjs.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cafjs/caf_forward.git"
+    },
+    "scripts": {
+        "test": "node ./node_modules/.bin/nodeunit",
+        "eslint" : "./node_modules/.bin/eslint .",
+        "eslintfix" : "./node_modules/.bin/eslint --fix ."
+    },
+    "engines": { "node": ">= 0.10.1 " }
+}
