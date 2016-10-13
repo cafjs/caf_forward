@@ -5,7 +5,7 @@ Co-design permanent, active, stateful, reliable cloud proxies with your web app 
 See http://www.cafjs.com
 
 ## CAF SMS
-<!-- [![Build Status](http://ci.cafjs.com/api/badges/cafjs/caf_forward/status.svg)](http://ci.cafjs.com/cafjs/caf_forward) -->
+[![Build Status](http://ci.cafjs.com/api/badges/cafjs/caf_forward/status.svg)](http://ci.cafjs.com/cafjs/caf_forward)
 
 This library provides a plugin to proxy http requests.
 
