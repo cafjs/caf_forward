@@ -1,10 +1,10 @@
-# CAF (Cloud Assistant Framework)
+# CAF.js (Cloud Assistant Framework)
 
 Co-design permanent, active, stateful, reliable cloud proxies with your web app or gadget.
 
 See http://www.cafjs.com
 
-## CAF SMS
+## CAF Forward
 [![Build Status](http://ci.cafjs.com/api/badges/cafjs/caf_forward/status.svg)](http://ci.cafjs.com/cafjs/caf_forward)
 
 This library provides a plugin to proxy http requests.
@@ -17,13 +17,15 @@ Bindings in that table are of the form `caName -> new_url_prefix`, where `caName
 
 For example, if we are accessing a resource `https://root-xx.cafjs.com/foo-ca1/xx.md`, we use the SharedMap `forwarding` of CA `foo-admin` in the application `root-xx`. If it contains the binding:
 
-    foo-ca1 -> https://somewhere.com
+      foo-ca1 -> https://somewhere.com
 
 then we rewrite the address to `https://somewhere.com/xx.md` before we forward the HTTP request.
 
 ## Configuration Example
 
 ### framework.json
+
+See {@link module:caf_forward/plug_forward}
 
     {
      "name": "top",
