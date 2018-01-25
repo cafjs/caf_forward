@@ -1,10 +1,10 @@
 {
     "name": "caf_forward",
     "description": "Cloud Assistant library to proxy HTTP requests",
-    "version": "0.2.2",
+    "version": "0.3.0",
     "author": "Antonio Lain <antlai@cafjs.com>",
     "dependencies": {
-        "caf_core": "^0.2.0",
+        "caf_core": "^0.3.0",
         "request" : "^2.75.0"
     },
     "devDependencies": {
