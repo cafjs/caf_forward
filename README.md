@@ -17,9 +17,9 @@ Configuration is managed by a dedicated CA per user (e.g., `admin`), using a Sha
 Bindings in that table are of the form `caName -> new_url_prefix`, where `caName` is the first element of the original url path (respecting `<owner>-<localname>` syntax).
 
 For example, if we are accessing a resource `https://root-xx.cafjs.com/foo-ca1/xx.md`, we use the SharedMap `forwarding` of CA `foo-admin` in the application `root-xx`. If it contains the binding:
-
+```
       foo-ca1 -> https://somewhere.com
-
+```
 then we rewrite the address to `https://somewhere.com/xx.md` before we forward the HTTP request.
 
 ## Configuration Example
@@ -27,7 +27,7 @@ then we rewrite the address to `https://somewhere.com/xx.md` before we forward t
 ### framework.json
 
 See {@link module:caf_forward/plug_forward}
-
+```
     {
      "name": "top",
      "components" : [
@@ -63,7 +63,7 @@ See {@link module:caf_forward/plug_forward}
         }
       ]
     }
-
+```
 ### ca.json
 
 None
