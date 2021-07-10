@@ -6,7 +6,8 @@ See https://www.cafjs.com
 
 ## Library to Forward HTTP Requests
 
-[![Build Status](https://travis-ci.org/cafjs/caf_forward.svg?branch=master)](https://travis-ci.org/cafjs/caf_forward)
+[![Build Status](https://github.com/cafjs/caf_forward/actions/workflows/push.yml/badge.svg)](https://github.com/cafjs/caf_forward/actions/workflows/push.yml)
+
 
 This library provides a plugin to proxy http requests.
 
