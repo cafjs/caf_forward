@@ -4,7 +4,7 @@
         "appPublisher" :"root",
         "appLocalName" : "test",
         "publicPath" : "process.env.PUBLIC_PATH||../../../../../test/public",
-        "appSuffix" : "vcap.me"
+        "appSuffix" : "localtest.me"
     },
     "components": [
         {

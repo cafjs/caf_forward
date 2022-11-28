@@ -67,7 +67,7 @@ module.exports = {
         const from2 = FROM_2;
         async.series([
             function(cb) {
-                s1 = new cli.Session('ws://foo-xx.vcap.me:3000', from1, {
+                s1 = new cli.Session('ws://foo-xx.localtest.me:3000', from1, {
                     from : from1
                 });
                 s1.onopen = function() {
@@ -80,7 +80,7 @@ module.exports = {
                     cb(null);
                 };
                 s1.setBinding(
-                    from2, 'http://foo-xx.vcap.me:3000/forwardother1-bar1', cb1
+                    from2, 'http://foo-xx.localtest.me:3000/forwardother1-bar1', cb1
                 );
             },
             function(cb) {
